@@ -13,7 +13,7 @@ import json
 texts = []
 for datapath in pathlist:
     for file in datapath.glob('*.json'):
-        with open(file , encoding ='utf-8')as f:
+        with open(file , encoding ='utf-8') as f:
             json_data = json.load(f)
         turns = json_data['turns']
         for t in turns:
