@@ -5,8 +5,8 @@ nlp = spacy.load('ja_ginza')
 from pathlib import Path
 Dpath = 'Resources\\DBDC\\'
 pathlist = []
-pathlist.append(Path(Dpath + 'projectnextnlp\\json\\init100\\'))
-pathlist.append(Path(Dpath + 'projectnextnlp\\json\\rest1046\\'))
+pathlist.append(Path(Dpath+'projectnextnlp\\json\\init100\\'))
+pathlist.append(Path(Dpath+'projectnextnlp\\json\\rest1046\\'))
 
 import json
 
