@@ -60,6 +60,6 @@ for prob, word in prob_list[:10]:
              
 # source 3.4
 
-print (lm.generate(text_seed=context , num_words =3))
+print(lm.generate(text_seed=context , num_words =3))
              
 # >> ['食べ物', 'は', '何'] 
